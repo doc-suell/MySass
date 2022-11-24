@@ -213,7 +213,7 @@ $breakpoints:(
  
   // If the key doesn't exist in the map
   @else {
-    @warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
+    @warn "Unfortunately, no value  from `#{$breakpoint}`. "
         + "Available breakpoints are: #{map-keys($breakpoints)}.";
   }
 }
