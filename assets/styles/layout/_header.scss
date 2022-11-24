@@ -1,0 +1,29 @@
+section{
+    @include respond-to('ex-small'){
+        background-color: aqua;
+    }
+}
+
+
+section{
+    @include respond-to("small"){
+        background-color: red;
+    }
+}
+
+section{
+    @include respond-to("medium"){
+        background-color: green;
+    }
+}
+
+
+section{
+    @include respond-to("large"){
+        width: 80%;
+        @include center-block;
+        background-color: orange;
+    }
+}
+
+
